@@ -1,0 +1,13 @@
+<template>
+    <div class="cell_circle">
+        <div class="img_wrapper">
+            <img :src="momentsObj.img" alt="">
+        </div>
+        <div class="content_wrapper">
+            <div class="cell_name">
+                {{momentsObj.name}}
+            </div>
+            <div class="cell_text"></div>
+        </div>
+    </div>
+</template>
